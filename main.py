@@ -13,6 +13,7 @@ from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 import argparse
 import sys
+import cv2 
 
 from matplotlib import pyplot as plt
 import matplotlib as mpl
