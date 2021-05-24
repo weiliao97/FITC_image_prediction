@@ -15,9 +15,11 @@ import argparse
 import sys
 import cv2 
 
-from matplotlib import pyplot as plt
+
 import matplotlib as mpl
 mpl.rcParams['figure.dpi']= 150
+
+from matplotlib import pyplot as plt
 
 from train import *
 from test import *
@@ -143,6 +145,7 @@ if __name__ == "__main__":
         #visuaize images
 
         a = np.random.choice(range(len(ros_te)), 6)
+        
         fig, axs = plt.subplots(2, 9, figsize=(12, 5))
         ax = axs.ravel()
 
