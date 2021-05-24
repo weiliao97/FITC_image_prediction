@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-import numpy as np
+
 from torchvision import datasets, transforms
 from torch.autograd import Variable
 from sklearn.model_selection import train_test_split
