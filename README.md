@@ -5,4 +5,4 @@ The data consists of pairs of neutrophil phase contrast image and FITC image, in
 
 Here are examples of the data with the quantified ROS value labeled.
 
-![phase_fitc](/images/phase_fitc.png "phase_fitc")
+![phase_fitc](/images/phase_fitc_ros.png "phase_fitc")
